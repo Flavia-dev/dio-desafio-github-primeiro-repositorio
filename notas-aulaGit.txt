@@ -1,0 +1,83 @@
+git add * (move o arquivo para o staging area)
+git commit -m " " (envelopa os arquivo e salva)
+
+git init  - inicia um repositório
+git config --list => mostra as configurações locais de seu git
+
+cria o repositorio no github , copia o link e 
+
+git remote add origin link do repositorio
+git remote -v => visualiza 
+obs: o origin é uma tag que substitui a digitação da url
+toda vez que for dar um git push
+
+git push origin master
+
+git remote -v => consigo ver a qual repositorio remoto meu repositorio esta linkado
+
+tag HEAD - ela aponta sempre para o ultimo commit
+em uma branch (Ela é você)
+
+
+git branch => mostra as branchs do meu repo
+
+git branch -m novonome => mda o nome da branch que vc esta
+
+git branch -d nomebranch => deleta a branch
+
+git checkout => muda de branch
+
+git stash => pega tudo que esta no satging e guarda pra vc usar depois
+
+git stash save "texto de contexto"
+
+git stash list
+
+git stash pop 1
+
+git stash clear => limpa o stash
+
+git log => mostra o historico
+
+git log nomedapasta => mostra o historico de uma unica pasta
+
+para sair do git log, digite : q
+
+git log --one line => traz tudo em uma linha só (resumido)
+git log --graph => mostra a movimentação das branchs
+
+gitk => forma grafica de visualizar a branch(parece um dev tolls)
+
+REVERTENDO COMMITS 
+
+git revert => 
+
+git reset --soft => forma contraria ao add (reverte o add)
+devolve tudo para a staging area
+
+git reset --mixed => devolve para o worhing directory (antes do add)
+
+git reset --hard HEAD~1 => ELE APAGA TODO O COMMIT CUIDADO
+
+git revert => cria um commit inverso
+
+evitar usar isso no repo remoto
+
+commits atômicos => agrupar commits por assunto
+português x inglês => atente-se as boas práticas
+e a cultura de seu time
+
+como escrever commit (boas prática):
+
+assunto => curto e compreensivel , até 50 caracteres
+		começar com letra maiuscula, não terminar
+		em ponto, escrever de forma imperativa (indica
+		sempre uma ação, nunca no passadado) Ex: "Adiciona 
+		a funcionalidade" x e não "Funcionalidade x adicionada"
+		é ideia é "o que esse commit faz? Adiciona..."
+		
+corpo => adicione detalhes ao commit, tente quebrar a linha em 75 caracteres,
+	identifique sua audiência, explique tudo, use markdown
+rodapé => opcional, referencie assuntos relacionados
+
+CONVENTIONAL COMMITS = documentação especifica (entrar no site para ver)

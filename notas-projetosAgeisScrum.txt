@@ -1,0 +1,27 @@
+PROJETOS ÁGEIS COM SCRUM
+
+Agil = ter capacidade de responder rapidamente a mudanças
+SCRUM = equipes pequeas multidisciplinares
+pilares - transparencia, adaptação inspeção
+
+ PO = dono do produto - uma pessoa - prioriza as funcionalidades do software
+ SM = Scrum Master - garante o uso correto do SCRUM
+ TIME DE DESENVOLVIMENTO = DEV - UX, FrontEnd, BackEnd, QA
+
+CERIMONIAS DO SCRUM
+
+Time Box = tempo maximo de uma cerimonia
+
+Sprint = maximo 30 dias
+Planejamento da sprint = time box 8h
+Daily Meeting = Time-box 15min (em pé)o que fez, o que esta fazendo,se tem impedimentos
+REVIEW = time dev apresenta para o PO tb 4h
+Retro = apontar os erros TB 3h
+
+Release = não é obrigatorio em toda sprint - entrega
+
+Errar rápido e corrigir rápido
+
+Epico = conj estoria
+Estoria = conj tarefas = sempre em nivel de negocio
+tarefa = 

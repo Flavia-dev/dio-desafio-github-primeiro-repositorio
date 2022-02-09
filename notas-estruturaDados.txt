@@ -1,0 +1,37 @@
+estrutura de dados:
+
+o que é estrutura de dados
+
+Algoritmo => conj de instruções estruturadas e ordenadas
+Principais Estruturas de dados:
+Vetores e Matrizes (Arrays)
+Registro
+Lista 
+Pilha Fila
+Árvore
+Tabela Hash
+Grafos
+
+Vetor e Matrizes(Arrays) =>
+Estruturas simples que podem auxiliar quando há muitas variáveis
+do mesmo tipo. Ex: nome[nome1, nome2, nome3]
+indexado
+
+registro é composto por varios campos (Ex: registro de cliente => nome, endereço, etc)
+cliente.cpf
+
+array, vetor e matriz tem tamanho fixo
+lista não tem tamanho fixo
+lista ligada =>
+lista duplamente ligada =>
+
+Pilhas
+lifo ou Ueps =>ultimo que entra e primeiro que sai=>de cima para baixo
+Fifo ou Peps =>primeiro que entra e primeiro que sai=> de baixo para cima
+
+filas = pilha fifo
+
+
+Arvore=>elementos colocados de forma hierarquica
+Tabela hash=>
+Grafos=>
